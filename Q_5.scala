@@ -2,7 +2,7 @@ object Q_5 {
   def main(args: Array[String]): Unit = {
     print("Enter your number - ")
     val number = scala.io.StdIn.readInt()
-    print(s"The addition of all even numbers less than given ${number} is " +(sum(number) - number))
+    print(s"The addition of all even numbers less than given ${number} is " +sum(number))
   }
 
   def sum(number: Int): Int = {
